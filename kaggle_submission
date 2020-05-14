@@ -1,0 +1,16 @@
+Using the Kaggle API
+
+usage: kaggle competitions submit [-h] -f FILE_NAME -m MESSAGE [-q]
+                                  [competition]
+
+required arguments:
+  -f FILE_NAME, --file FILE_NAME
+                        File for upload (full path)
+  -m MESSAGE, --message MESSAGE
+                        Message describing this submission
+
+optional arguments:
+  -h, --help            show this help message and exit
+  competition           Competition URL suffix (use "kaggle competitions list" to show options)
+                        If empty, the default competition will be used (use "kaggle config set competition")"
+  -q, --quiet           Suppress printing information about the upload/download progress
