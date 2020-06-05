@@ -1,0 +1,1 @@
+My repository of kaggle submissions. Datasets are not committed to the repo here, but exist in my local directory with the folder structure "datasets/{project_name}". E.g., for the titanic submission, the training dataset is present at the location "./kaggle/datasets/titanic/train.csv"
